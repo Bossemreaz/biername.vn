@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .header h1 {
+            background-color: black;
+            color: aliceblue;
+            margin: 0px;
+            padding: 2px;
+            border: 2px;
+            font: inherit;
+            vertical-align: baseline;
+            width: 100%;
+            height: 80%;
+            border-radius: 10px;
+        }
+
+        .header span {
+            float: right;
+        }
+
+        .header span i {
+            font-size: 20px;
+            float: right;
+        }
+
+        .header b i {
+            font-size: 10px;   
+        }
+        div.menu {
+            margin-top: 3px;
+            padding: 3px;
+            text-align: left;
+            font-family: inherit;   
+        }
+        .Logo {
+            font-size: 10px;
+        }
+        .Logo h2 {
+            text-align: center;
+            font-size: 15px;
+        }
+        .menu button {
+            float:right;
+        }
+        .menu input{
+            float:right;
+            width: 15vh;
+        }
+        .menu i {
+            float:right;
+            font-size: 25px;
+        }
+        .collection  {
+            width:25%;
+            height:25%;
+            float:left;
+        }
+        .sanpham {
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+        }
+        .sanpham.ten {
+            font-size: large;
+            font-variant: small-caps;
+            color:blue;
+        }
+        .sanpham.img {
+            max-width: 95%;
+        }
+        .sanpham.gia {
+            color:red;
+            font-weight: bold;
+            font-size: large;
+        }
+        .sanpham.gia{
+            color:gray;
+        }
+        .them{
+            font-size: 15px;
+            text-align: center;
+            box-shadow: 0 0 5px black;
+            padding: 5px;
+            width: 15rem;
+            margin: auto;
+        }
+        .Suutap{
+            text-align: center;
+            font-size: 1rem;
+            font-family: "SVN-Futura Medium", sans-serif;
+            text-transform: uppercase
+        }
+        .row{
+            float: right;
+            width: 100%;
+            margin-bottom:20px;
+            display: block;
+        }
+        .boxcenter1{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .boxs1{
+            width: 10%;
+            float: right;
+        }
+        .boxs2{
+            width: 15%;
+            float: right;
+        }
+        .boxs3{
+            width: 25%;
+            float: right;
+        }
+        .boxs4{
+            width: 15%;
+            float: right;
+        }
+        .boxs5{
+            width: 30%;
+            float: left;
+        }
+        .icon {
+            width: 30%;
+            float: left;
+        }
+        .muccuoi{
+            text-align: left;
+            background-color: black;
+            color: aliceblue;
+            font-size: 10px;
+            margin: 0px;
+            padding: 5px;
+            border: 5px;
+            font: inherit;
+            display: block;
+        }
+        .Logo3{
+            text-align: center;
+        }
+        .video{
+            max-width: 100%;
+            position: static;
+            top: 70%;
+            left: 70%;
+        }
+        .hmenu{
+            margin: 0px;
+            padding: 0px;
+            border-radius: 5px;
+            list-style: none;
+            height: 40px;
+        }
+        ul.hmenu>li>a{
+            display: block;
+            line-height: 40px;
+            text-decoration: none;
+            font-variant: small-caps;
+            padding-left: 25px;
+        }
+        ul.menu>li>a:hover{
+            color: black;
+            font-weight: bolder;
+        }
+        ul.hmenu>li{
+            float: left;
+            margin: 0px;
+            position: relative;
+        }
+        ul.hmenu>li:hover>.menun{
+            display: block;
+        }
+        .menun{
+            margin: 0px;
+            padding: 0px;
+            border-radius: 5px;
+            list-style: none;
+            width: 150px;
+            position: absolute;
+            display: none;
+        }
+        .menun>li>a{
+            display: block;
+            line-height: 30px;
+            border-bottom: 1px dotted black;
+            text-decoration: none;
+            font-variant: small-caps;
+            padding-left: 25px;
+            color: black;
+            background-color: white;
+        }
+        .menun>li>a:hover{
+            color: red;
+            font-weight: bolder;
+            background-color: white;
+        }
+        .link-1{
+            transition: 0.3s ease;
+            color: black;
+            font-size: 15px;
+            text-decoration: none;
+            padding: 2px 0;
+            margin: 0 2px;
+        }
+        .link-1:hover {
+        border-bottom: 2px solid black;
+        padding: 2px 0;
+}
+.link-3 {
+
+transition: 0.4s;
+
+color: black;
+
+font-size: 15px;
+
+text-decoration: none;
+
+padding: 0 10px;
+
+margin: 0 10px;
+
+}
+
+.link-3:hover {
+
+background-color: #ffffff;
+
+color:black;
+
+padding: 8px 10px;
+
+}
+    </style>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+
+<body>
+    <div class="header" data-act="ser">
+        <h1>
+            <b> <i class="fi fi-rr-globe"></i> LEVENTS LOVE YOU!!! </b>
+            <span> BUY NOW <i class="fi fi-rr-arrow-small-right"></i> </span>
+        </h1>
+    </div>
+    <div class="Logo">
+        <h2>
+            <img src="https://levents.asia/wp-content/uploads/2021/10/logo.png">
+        </h2>
+    </div>
+    <hr>
+    <div class="menu">
+        <ul class="hmenu">
+         <li> <a class="link-1" href="Trang gioithieu.html"> Giới Thiệu </a>  </li> 
+         <li> <a class="link-1" href="Trang shop.html"> Shop </a>
+            <ul class="menun"> 
+                <li> <a href="T-Shirt.html"> T-Shirt </a>  </li>
+                <li> <a href="Polo.html"> Polo </a>  </li>
+                <li> <a href="Pant.html"> Pant </a>  </li>
+                <li> <a href="Outerwear.html"> Outerwear </a>  </li>
+                <li> <a href="Balo.html"> Balo </a>  </li>
+                <li> <a href="ACC.html"> Phụ Kiện </a>  </li>
+            </ul>
+        </li>
+         <li> <a class="link-1" href="Trang saleoff.html" style="color: red;"> Sale-Off </a>  </li> 
+         <li> <a class="link-1" href="Trang blog.html"> Blog </a>  </li> 
+         <li> <a class="link-1" href="Trang Lienhe.html"> Liên Hệ </a>  </li> 
+         <li> <a class="link-1" href="Trang cskh.html"> Chăm Sóc Khách Hàng </a> </li> 
+        <a class="link-2" href="Trangdangki.html"> <button>Đăng Ký </button> </a>
+        <a class="link-2" href="Trangdangnhap.html"> <button>Đăng Nhập </button> </a> 
+        <input type="text" class="link-2">
+        <i class="fi fi-rr-search" class="link-2"></i>
+    </ul>
+    </div> <br>
+        <video class="video"autoplay loop muted>
+            <source src="https://levents.asia/wp-content/uploads/2022/09/clip-3-ban-ngang-web-.mp4" width="100%" type="video/mp4">
+        </video>
+        <div class="Body" style="text-align: center;">
+            <div class="Logobody" style="font-size: 20px;"> 
+                <img src="https://levents.asia/wp-content/uploads/2021/10/logo.png">
+            </div>
+            <hr>
+            <p>
+                <b> NEW COLLECTION </b>
+            </p>
+        </div>
+        <div class="collection">
+            <div class="sanpham">
+                <div class="ten"></div>
+                <img src="https://levents.asia/wp-content/uploads/2022/08/z3745140617999_adb3919ecdc5ceefde58d8ef6dae31d4-400x500.jpg" alt="CANVAS BACKPACK" width="100px">
+                <div class="Gia">
+                    LEVENTS® | DORAEMON COLLAB TEE/ WHITE<br>
+                    435.000vnđ
+                </div>
+            </div>
+        </div>
+        <div class="collection">
+            <div class="sanpham">
+                <div class="ten"></div>
+                <img src="https://levents.asia/wp-content/uploads/2022/08/z3745138523241_350f8c613f014e5761dca8ff6d2658ea-1-400x500.jpg" alt="CANVAS BACKPACK" width="100px">
+                <div class="Gia">
+                    LEVENTS® | DORAEMON FAMOUS CAT TEE/ GREEN<br>
+                    370.000vnđ
+                </div>
+            </div>
+        </div>
+        <div class="collection">
+            <div class="sanpham">
+                <div class="ten"></div>
+                <img src="https://levents.asia/wp-content/uploads/2022/08/z3745138708990_ae6f522e0a05800faa5a33c159841f4b-400x500.jpg" alt="CANVAS BACKPACK" width="100px">
+                <div class="Gia">
+                    LEVENTS® | DORAEMON FAMOUS CAT TEE/ RED<br>
+                    370.000vnđ
+                </div>
+            </div>
+        </div>
+        <div class="collection">
+            <div class="sanpham">
+                <div class="ten"></div>
+                <img src="https://levents.asia/wp-content/uploads/2022/08/z3745140798675_95740ef163aac492f948bad26215e50d-400x500.jpg" alt="CANVAS BACKPACK" width="100px">
+                <div class="Gia">
+                    LEVENTS® | DORAEMON COLLAB TEE/ BLACK<br>
+                    435.000 vnđ
+                </div>
+            </div>
+        </div> 
+        <br>
+        <div class="collection">
+            <div class="sanpham">
+                <div class="ten"></div>
+                <img src="https://levents.asia/wp-content/uploads/2022/09/z3689129573043_fd51bea57c42dd321c6384bc4005a4b0-400x500.jpg" alt="CANVAS BACKPACK" width="100px">
+                <div class="Gia">
+                    LEVENTS® CITIES SHIRT/ BLACK<br>
+                    420.000 vnđ
+                </div>
+            </div>
+        </div>
+        <div class="collection">
+            <div class="sanpham">
+                <div class="ten"></div>
+                <img src="https://levents.asia/wp-content/uploads/2022/08/z3742607329270_2ecbbade3ec49f719c54d6698d9c22da-400x500.jpg" alt="CANVAS BACKPACK" width="100px">
+                <div class="Gia">
+                    LEVENTS® | DORAEMON POPULAR CAT TEE/ CREAM<br>
+                    395.000 vnđ
+                </div>
+            </div>
+        </div>
+        <div class="collection">
+            <div class="sanpham">
+                <div class="ten"></div>
+                <img src="https://levents.asia/wp-content/uploads/2022/08/z3745139219857_cdbff81efacac75a43301cdffa032de7-400x500.jpg" alt="CANVAS BACKPACK" width="100px">
+                <div class="Gia">
+                    LEVENTS® | DORAEMON COLLAB HOODIE/ BLACK<br>
+                    625.000 vnđ
+                </div>
+            </div>
+        </div>
+        <div class="collection">
+            <div class="sanpham">
+                <div class="ten"></div>
+                <img src="https://levents.asia/wp-content/uploads/2022/08/z3745138995010_7d8e8374e7f70477b31759b8f953b87e-400x500.jpg" alt="CANVAS BACKPACK" width="100px">
+                <div class="Gia">
+                    LEVENTS® | DORAEMON COLLAB HOODIE/ CREAM<br>
+                    625.000 vnđ
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="mucthem">
+            <div class="them">
+                <a class="link-3" href="#"> Xem Thêm </a>
+            </div>
+        </div> 
+        <hr>
+        <br>
+        <div class="Suutap">
+            <b> BỘ SƯU TẬP </b> <br>
+        </div>
+        <div class="anhsuutap" style="display: flex;">
+            <img src="https://levents.asia/wp-content/uploads/2022/09/Asset-2-100-1-1920x988.jpg" width="100%">
+        </div>
+        <br>
+        <div class="Logo3">
+            <div class="Logoft" style="font-size: 20px;">
+                <img src="https://levents.asia/wp-content/uploads/2021/10/logo.png">
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <div class="row">
+               <div class="boxcenter1">
+                    <div class="boxs1">
+                        <h3> Mở Rộng </h3>
+                        <p>
+                            Tuyển Dụng <br> <br>
+                           <a href="Trang blog.html"> Blog</a> 
+                        </p>
+                    </div>
+                    <div class="boxs2">
+                        <h3> Hỗ Trợ </h3>
+                            <p>
+                                Chính Sách Đổi Trả <br> <br> 
+                               <a href="Trangdangnhap.html"> Tài Khoản </a><br> <br>
+                                Chính Sách Vận Chuyển <br> <br>
+                                Thanh Toán Online <br> <br>
+                                Chính Sách bảo Mật <br> <br>
+                                Chính Sách bảo hành <br> <br>
+                                Chính Sách Khiếu nại
+                            </p>
+                    </div>
+                    <div class="boxs3">
+                        <h3> Cửa Hàng </h3>
+                            <p>
+                               <a href="Trang Lienhe.html"> 325 Hoàng Sa, Tân Định,quận 1, HCM </a>  <br> <br>
+                               <a href="Trang Lienhe.html"> The New Playground, 04 Phạm Ngũ Lão, quận 1, HCM </a> <br> <br>
+                               <a href="Trang Lienhe.html"> 842 Sư Vạn Hạnh, phường 12, quận 10, HCM </a><br> <br>
+                               <a href="Trang Lienhe.html"> 54 Mậu Thân, Xuân Khánh, quận Ninh Kiều, Cần Thơ </a><br>
+                            </p>
+                    </div>
+                    <div class="boxs4">
+                        <h3> Liên Hệ </h3>
+                        <p>
+                            <div class="nd"> <i class="fi fi-rr-phone-call"></i> Hotline <br><a href="">1900 633 028 </a></div>
+                            <div class="nd"><i class="fi fi-rr-envelope"></i>Email <br><a href="">Customercare@levents.asia </a></div>
+                            <div class="nd">Mon-Sun <br><a href="">09:30-21:30 </a></div>
+                            <div class="nd">Email Business <br><a href="">business@levents.asia </a></div>
+                        </p>
+                    </div>
+                    <div class="boxs5">
+                        <h3> Về Chúng Tôi </h3>
+                        <p>
+                            Levents® - Popular Streetwear Brand <br> <br>
+                            HỘ KINH DOANH Levents <br>
+                            GPKD được cấp bởi Ủy ban nhân dân Quận 1-TP Hồ Chí Minh <br>
+                            Mã số thuế: 8547618080 <br>
+                            Ngày cấp: 07/12/2020 <br>
+                        </p>
+                    </div>
+        </footer>
+        <hr>
+        <div class="muccuoi" style="background-color:darkgrey;">
+            Levents® - Popular Streetwear brand
+    </div>
+</body>
+</html>

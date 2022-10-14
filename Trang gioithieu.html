@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+            .header h1 {
+            background-color: black;
+            color: aliceblue;
+            font-size: 10px;
+            margin: 0px;
+            padding: 2px;
+            border: 5px;
+            font: inherit;
+            vertical-align: baseline;
+            width: 100%;
+            height: 80%;
+            border-radius: 10px;
+        }
+
+        .header span {
+            float: right;
+        }
+
+        .header span i {
+            font-size: 20px;
+            float: right;
+        }
+
+        .header b i {
+            font-size: 10px;
+        }
+        .Logo {
+            font-size: 10px;
+        }
+        .Logo h2 {
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .hmenu{
+            margin: 0px;
+            padding: 0px;
+            border-radius: 5px;
+            list-style: none;
+            height: 20px;
+        }
+        ul.hmenu>li>a{
+            display: block;
+            line-height: 20px;
+            text-decoration: none;
+            font-variant: small-caps;
+            padding-left: 25px;
+        }
+        ul.menu>li>a:hover{
+            color: black;
+            font-weight: bolder;
+        }
+        ul.hmenu>li{
+            float: left;
+            margin: 0px;
+            position: relative;
+        }
+        ul.hmenu>li:hover>.menun{
+            display: block;
+        }
+        .menun{
+            margin: 0px;
+            padding: 0px;
+            border-radius: 5px;
+            list-style: none;
+            width: 150px;
+            position: absolute;
+            display: none;
+        }
+        .menun>li>a{
+            display: block;
+            line-height: 30px;
+            border-bottom: 1px dotted black;
+            text-decoration: none;
+            font-variant: small-caps;
+            padding-left: 25px;
+            color: black;
+            background-color: white;
+        }
+        .menun>li>a:hover{
+            color: red;
+            font-weight: bolder;
+            background-color: white;
+        }
+        .con{
+            text-align: center;
+        }
+        .liven{
+            color: #000000;
+            font-family: "FuturaNowHeadline-XLight", Sans-serif;
+            font-size: 32px;
+            font-weight: 100;
+            line-height: 50px;
+        }
+        .doan1{
+        font-family: "FuturaNowHeadline-XLight", Sans-serif;
+        font-size: 13px;
+        font-weight: 100;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 23px;
+        color: transparent;
+        text-shadow: 0 0 1px rgba(0,0,0,0.5);
+        text-align: center;
+        }
+        div.menu {
+            Text-align: center;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            font-size: 15px;
+        }
+        .doan2{
+            float: right;
+            width: 100%;
+            margin-bottom:10px;
+            display: block;
+        }
+        .boxdoan2{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .boxv1{
+            float: left;
+            width: 50%;
+            font-size: 20px;
+        }
+        .boxv2{
+            float: left;
+            text-align: left;
+            width: 40%;
+            font-size: 15px;
+            font-family: "FuturaNowHeadline-XLight", Sans-serif;
+            font-weight: 100;
+            line-height: 23px;
+            margin-bottom: 0.5em;
+            margin-top: 0.6em;
+            color: transparent;
+            text-shadow: 0 0 1px rgba(0,0,0,0.5);
+        }
+        .doan3{
+            float: right;
+            width: 100%;
+            margin-bottom:10px;
+            display: block;
+        }
+        .boxdoan3{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .boxv3{
+            float: left;
+            width: 50%;
+            font-size: 20px;
+        }
+        .boxv4{
+            float: left;
+            text-align: left;
+            width: 40%;
+            font-size: 15px;
+            font-family: "FuturaNowHeadline-XLight", Sans-serif;
+            font-weight: 100;
+            line-height: 23px;
+            margin-bottom: 0.5em;
+            margin-top: 0.6em;
+            color: transparent;
+            text-shadow: 0 0 1px rgba(0,0,0,0.5);
+        }
+        .doan4{
+            float: right;
+            width: 100%;
+            margin-bottom:10px;
+            display: block;
+        }
+        .boxdoan4{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .boxv5{
+            float: left;
+            width: 50%;
+            font-size: 20px;
+        }
+        .boxv6{
+            float: left;
+            text-align: left;
+            width: 40%;
+            font-size: 15px;
+            font-family: "FuturaNowHeadline-XLight", Sans-serif;
+            font-weight: 100;
+            line-height: 23px;
+            margin-bottom: 0.5em;
+            margin-top: 0.6em;
+            color: transparent;
+            text-shadow: 0 0 1px rgba(0,0,0,0.5);
+        }
+        .row{
+            float: right;
+            width: 100%;
+            margin-bottom:20px;
+            display: block;
+        }
+        .boxcenter1{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .boxs1{
+            width: 10%;
+            float: right;
+        }
+        .boxs2{
+            width: 15%;
+            float: right;
+        }
+        .boxs3{
+            width: 25%;
+            float: right;
+        }
+        .boxs4{
+            width: 15%;
+            float: right;
+        }
+        .boxs5{
+            width: 30%;
+            float: left;
+        }
+        .muccuoi{
+            text-align: left;
+            background-color: black;
+            color: aliceblue;
+            font-size: 10px;
+            margin: 0px;
+            padding: 5px;
+            border: 5px;
+            font: inherit;
+            display: block;
+        }
+        .link-1{
+            transition: 0.3s ease;
+            color: black;
+            font-size: 15px;
+            text-decoration: none;
+            padding: 2px 0;
+            margin: 0 2px;
+        }
+        .link-1:hover {
+        border-bottom: 2px solid black;
+        padding: 2px 0;
+}
+    </style>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+    <div class="header">
+        <h1>
+            <b> <i class="fi fi-rr-globe"></i> LEVENTS LOVE YOU!!! </b>
+            <span> BUY NOW <i class="fi fi-rr-arrow-small-right"></i> </span>
+        </h1>
+    </div>
+    <div class="Logo">
+        <h2>
+            <img src="https://levents.asia/wp-content/uploads/2021/10/logo.png">
+        </h2>
+    </div>
+    <hr>
+    <div class="menu">
+        <ul class="hmenu">
+         <li> <a class="link-1" href="index.html"> Trang Chủ </a>  </li> 
+         <li> <a class="link-1" href="Trang shop.html"> Shop </a>
+            <ul class="menun"> 
+                <li> <a href="T-Shirt.html"> T-Shirt </a>  </li>
+                <li> <a href="Polo.html"> Polo </a>  </li>
+                <li> <a href="Pant.html"> Pant </a>  </li>
+                <li> <a href="Outerwear.html"> Outerwear </a>  </li>
+                <li> <a href="Balo.html"> Balo </a>  </li>
+                <li> <a href="ACC.html"> Phụ Kiện </a>  </li>
+            </ul>
+        </li>
+         <li> <a class="link-1" href="Trang saleoff.html" style="color: red;"> Sale-Off </a>  </li> 
+         <li> <a class="link-1" href="Trang blog.html"> Blog </a>  </li> 
+         <li> <a class="link-1" href="Trang Lienhe.html"> Liên Hệ </a>  </li> 
+         <li> <a class="link-1" href="Trang cskh.html"> Chăm Sóc Khách Hàng </a> </li>
+        </ul>
+    </div>
+    <hr>
+    <div class="con">
+        <h3> Về Chúng Tôi </h3>
+        <div class="liven">
+            Levents® - Popular Streetwear brand <br>
+            / Lì - ven / <br>
+        </div>
+    </div>
+    <div class="doanchinh">
+        <div class="doan1">
+            Chúng tôi là thương hiệu thời trang Streetwear nổi tiếng với định hướng<br>
+                cung cấp sản phẩm có chất lượng cao, sành điệu với giá thành hợp lý.
+        </div> <br> <br> <br>
+        <div class="anh1">
+            <img src="https://levents.asia/wp-content/uploads/elementor/thumbs/homepage-ngang-4-1-scaled-prlzs731tmqluu3qoxoodpyzvmm53nywlrfokljhu8.jpg" width="99%">
+        </div>
+        <div class="doan2">
+            <div class="boxdoan2">
+                <div class="boxv1">
+                    <h2>
+                        <br>
+                        Chúng Tôi Là Ai?
+                    </h2>
+                </div>
+                <div class="boxv2">
+                    <p>
+                        Levents® là lựa chọn hàng đầu dành cho các tín đồ thời trang Streetwear sành điệu. Sứ mệnh của Levents® là trao quyền cho thế hệ trẻ toàn thế giới tự do thể hiện phong cách thông qua thời trang, thương hiệu vượt qua ranh giới của thời trang streetwear bằng cách không ngừng sáng tạo các trang phục với các bộ sưu tập độc đáo
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="anh2">
+            <img src="https://levents.asia/wp-content/uploads/elementor/thumbs/homepage-ngang-2-1-scaled-prlzqw34bwy9qc00bddbx1ty6d1sessbratekrh6hc.jpg" width="99%">
+        </div>
+        <div class="doan3">
+            <div class="boxdoan3">
+                <div class="boxv3">
+                    <h2>
+                        <br>
+                        Chất lượng trải nghiệm vượt trội
+                    </h2>
+                </div>
+                <div class="boxv4">
+                    <p>
+                        Chúng tôi không ngừng nỗ lực, tập trung vào chất lượng sản phẩm và trải nghiệm mua sắm vượt trội nhất chưa từng có trước đây, các cửa hàng vật lý của chúng tôi, tối ưu hóa trải nghiệm, giúp người dùng mua sắm một sản phẩm cao cấp thật sự.<br>
+                        Mua sắm online dễ dàng, đa nền tảng trải nghiệm tuyệt vời. Giá thành hợp lý.<br>
+                        Điều này đã giải quyết bài toán để bạn vừa cân đối khả năng tài chính, vừa đáp ứng hoàn hảo cho nhu cầu thời trang của bạn và xu hướng nhanh của thời đại.
+                    </p>
+                </div>
+            </div>
+            <div class="anh3">
+                <img src="https://levents.asia/wp-content/uploads/elementor/thumbs/Untitled-3-1-prb4bhjxpwu6l1zt2rxzmkhvra4hmkcrfkewp4nzfk.png" width="99%">
+            </div>
+            <div class="doan4">
+                <div class="boxdoan4">
+                    <div class="boxv5">
+                        <h2>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            Biểu tượng thời trang thời đại mới <br>
+                            Fashion icon for young generation
+                        </h2>
+                    </div>
+                    <div class="boxv6">
+                        <p>
+                            Tại Levents®, mỗi sản phẩm đều mang theo sự cá tính và sành điệu, đại diện cho hình ảnh giới trẻ hiện đại - biểu tượng cho sự dẫn đầu phong cách thời đại mới.<br> <br>
+
+                            Quần áo có thể sẽ lỗi thời nhưng phong cách thời trang thì không. Tầm nhìn độc đáo của Levents® chính là để mỗi cá nhân tự do thể hiện phong cách khi khoác lên mình những sản phẩm được tạo nên từ sự đam mê, mang giá trị của thế hệ mới, đầy trẻ trung, năng động và luôn không ngừng khẳng định bản thân, hướng đến tương lai.<br> <br>
+
+                            Sự đầu tư từ chất lượng đóng gói, bao bì sản phẩm đến mỗi thước phim, hình ảnh cho tới cách làm chủ được nghệ thuật sắc màu và chỉn chu trong từng chi tiết đã đưa Levents® trở thành một trong những thương hiệu thời trang Streetwear được giới trẻ yêu thích, tin dùng hàng đầu tại Việt Nam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <footer>
+                <div class="row">
+                   <div class="boxcenter1">
+                        <div class="boxs1">
+                            <h3> Mở Rộng </h3>
+                            <p>
+                                Tuyển Dụng <br> <br>
+                                Blog
+                            </p>
+                        </div>
+                        <div class="boxs2">
+                            <h3> Hỗ Trợ </h3>
+                                <p>
+                                    Chính Sách Đổi Trả <br> <br> 
+                                    <a href="Trangdangnhap.html"> Tài Khoản </a><br> <br>
+                                    Chính Sách Vận Chuyển <br> <br>
+                                    Thanh Toán Online <br> <br>
+                                    Chính Sách bảo Mật <br> <br>
+                                    Chính Sách bảo hành <br> <br>
+                                    Chính Sách Khiếu nại
+                                </p>
+                        </div>
+                        <div class="boxs3">
+                            <h3> Cửa Hàng </h3>
+                                <p>
+                                    <a href="Trang Lienhe.html"> 325 Hoàng Sa, Tân Định,quận 1, HCM </a>  <br> <br>
+                                    <a href="Trang Lienhe.html"> The New Playground, 04 Phạm Ngũ Lão, quận 1, HCM </a> <br> <br>
+                                    <a href="Trang Lienhe.html"> 842 Sư Vạn Hạnh, phường 12, quận 10, HCM </a><br> <br>
+                                    <a href="Trang Lienhe.html"> 54 Mậu Thân, Xuân Khánh, quận Ninh Kiều, Cần Thơ </a><br>
+                                </p>
+                        </div>
+                        <div class="boxs4">
+                            <h3> Liên Hệ </h3>
+                            <p>
+                                <div class="nd"> <i class="fi fi-rr-phone-call"></i> Hotline <br><a href="">1900 633 028 </a></div>
+                                <div class="nd"><i class="fi fi-rr-envelope"></i>Email <br><a href="">Customercare@levents.asia </a></div>
+                                <div class="nd">Mon-Sun <br><a href="">09:30-21:30 </a></div>
+                                <div class="nd">Email Business <br><a href="">business@levents.asia </a></div>
+                            </p>
+                        </div>
+                        <div class="boxs5">
+                            <h3> Về Chúng Tôi </h3>
+                            <p>
+                                Levents® - Popular Streetwear Brand <br> <br>
+                                HỘ KINH DOANH Levents <br>
+                                GPKD được cấp bởi Ủy ban nhân dân Quận 1-TP Hồ Chí Minh <br>
+                                Mã số thuế: 8547618080 <br>
+                                Ngày cấp: 07/12/2020 <br>
+                            </p>
+                        </div>
+                </div>
+            </footer>
+            <hr>
+            <div class="muccuoi" style="background-color:darkgrey;">
+                Levents® - Popular Streetwear brand
+        </div>
+</body>
+</html>

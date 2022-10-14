@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+            .header h1 {
+            background-color: black;
+            color: aliceblue;
+            font-size: 10px;
+            margin: 0px;
+            padding: 2px;
+            border: 5px;
+            font: inherit;
+            vertical-align: baseline;
+            width: 100%;
+            height: 80%;
+            border-radius: 10px;
+        }
+
+        .header span {
+            float: right;
+        }
+
+        .header span i {
+            font-size: 20px;
+            float: right;
+        }
+
+        .header b i {
+            font-size: 10px;
+        }
+        .Logo {
+            font-size: 10px;
+        }
+        .Logo h2 {
+            text-align: center;
+            font-size: 15px;
+        }
+        .menu>a {
+            font-variant: small-caps;
+            color: black;
+            text-decoration: none;
+        }
+        .menu>a:visited {
+            color: black;
+        }
+        div.menu {
+            Text-align: center;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            font-size: 15px;
+        }
+        .link-1{
+            transition: 0.3s ease;
+            color: black;
+            font-size: 15px;
+            text-decoration: none;
+            padding: 2px 0;
+            margin: 0 2px;
+        }
+        .link-1:hover {
+        border-bottom: 2px solid black;
+        padding: 2px 0;
+}
+.hmenu{
+            margin: 0px;
+            padding: 0px;
+            border-radius: 5px;
+            list-style: none;
+            height: 40px;
+        }
+        ul.hmenu>li>a{
+            display: block;
+            line-height: 40px;
+            text-decoration: none;
+            font-variant: small-caps;
+            padding-left: 25px;
+        }
+        ul.menu>li>a:hover{
+            color: black;
+            font-weight: bolder;
+        }
+        ul.hmenu>li{
+            float: left;
+            margin: 0px;
+            position: relative;
+        }
+        ul.hmenu>li:hover>.menun{
+            display: block;
+        }
+        .menun{
+            margin: 0px;
+            padding: 0px;
+            border-radius: 5px;
+            list-style: none;
+            width: 150px;
+            position: absolute;
+            display: none;
+        }
+        .menun>li>a{
+            display: block;
+            line-height: 30px;
+            border-bottom: 1px dotted black;
+            text-decoration: none;
+            font-variant: small-caps;
+            padding-left: 25px;
+            color: black;
+            background-color: white;
+        }
+        .menun>li>a:hover{
+            color: red;
+            font-weight: bolder;
+            background-color: white;
+        }
+        .column  {
+            width:25%;
+            float:left;
+        }
+        .san-pham {
+            border-radius: 10px;
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+        }
+        .san-pham.ten {
+            font-size: large;
+            font-variant: small-caps;
+            color:blue;
+        }
+        .san-pham.img {
+            max-width: 95%;
+        }
+        .san-pham.gia {
+            color:red;
+            font-weight: bold;
+            font-size: large;
+        }
+        .san-pham.gia del {
+            color:gray;
+        }
+        .row{
+            float: right;
+            width: 100%;
+            margin-bottom:20px;
+            display: block;
+        }
+        .boxcenter1{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .boxs1{
+            width: 10%;
+            float: right;
+        }
+        .boxs2{
+            width: 15%;
+            float: right;
+        }
+        .boxs3{
+            width: 25%;
+            float: right;
+        }
+        .boxs4{
+            width: 15%;
+            float: right;
+        }
+        .boxs5{
+            width: 30%;
+            float: left;
+        }
+        .them{
+            font-size: 15px;
+            text-align: center;
+            box-shadow: 0 0 5px black;
+            padding: 5px;
+            width: 15rem;
+            margin: auto;
+        }
+        .muccuoi{
+            text-align: left;
+            background-color: black;
+            color: aliceblue;
+            font-size: 10px;
+            margin: 0px;
+            padding: 5px;
+            border: 5px;
+            font: inherit;
+            display: block;
+        }
+        .link-3 {
+
+transition: 0.4s;
+
+color: black;
+
+font-size: 15px;
+
+text-decoration: none;
+
+padding: 0 10px;
+
+margin: 0 10px;
+
+}
+
+.link-3:hover {
+
+background-color: #ffffff;
+
+color:black;
+
+padding: 8px 10px;
+
+}
+    </style>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+    <div class="header">
+        <h1>
+            <b> <i class="fi fi-rr-globe"></i> LEVENTS LOVE YOU!!! </b>
+            <span> BUY NOW <i class="fi fi-rr-arrow-small-right"></i> </span>
+        </h1>
+    </div>
+    <div class="Logo">
+        <h2>
+            <img src="https://levents.asia/wp-content/uploads/2021/10/logo.png">
+        </h2>
+    </div>
+    <hr>
+    <div class="menu">
+        <ul class="hmenu">
+         <li> <a class="link-1" href="index.html"> Trang Chủ </a>  </li> 
+         <li> <a class="link-1" href="Trang shop.html"> Shop </a>
+            <ul class="menun"> 
+                <li> <a href="T-Shirt.html"> T-Shirt </a>  </li>
+                <li> <a href="Polo.html"> Polo </a>  </li>
+                <li> <a href="Pant.html"> Pant </a>  </li>
+                <li> <a href="Outerwear.html"> Outerwear </a>  </li>
+                <li> <a href="Balo.html"> Balo </a>  </li>
+                <li> <a href="ACC.html"> Phụ Kiện </a>  </li>
+            </ul>
+        </li>
+         <li> <a class="link-1" href="Trang saleoff.html" style="color: red;"> Sale-Off </a>  </li> 
+         <li> <a class="link-1" href="Trang blog.html"> Blog </a>  </li> 
+         <li> <a class="link-1" href="Trang Lienhe.html"> Liên Hệ </a>  </li> 
+         <li> <a class="link-1" href="Trang cskh.html"> Chăm Sóc Khách Hàng </a> </li>
+        </ul>
+    </div>
+        <hr>
+        <div class="aln-ct" data-act="ser">
+            <p>
+                <form action="/action_page.php">
+                    <select name="cars" id="cars" style="width: 180px; height: 30px; float: right;">
+                      <option value="volvo">Lọc Bởi</option>
+                      <option value="saab"> Giá  từ thấp tới cao</option>
+                      <option value="opel"> Giá từ cao tới thấp</option>
+                      <option value="audi"> Phổ Biến </option>
+                    </select>
+                    <i class="fi fi-rr-filter" style="float: right; font-size: 25px;" ></i>
+                  </form>
+            </p>
+        </div>
+        <br>  
+        <br>
+        <br>
+        <br>  
+        <br>
+        <br>
+        <div class="Ao" style="text-align: center; font-size: 30px;">
+            <h3> OUTERWEAR </h3>
+        </div>
+        <br>
+        <div class="doanchinh">
+            <div class="column">
+                <div class="san-pham">
+                    <div class="ten" style="color: red;"> -5% </div>
+                    <img src="https://levents.asia/wp-content/uploads/2022/08/z3745139219857_cdbff81efacac75a43301cdffa032de7-2048x2048.jpg" alt="CANVAS BACKPACK" width="250px">
+                    <div class="Gia">
+                        LEVENTS® | DORAEMON COLLAB HOODIE<br>
+                        <del>625,000 vnđ </del> <span style="color: red; text-decoration: underline;"> 593,750 vnđ </span>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="san-pham">
+                    <div class="ten" style="color: red;"> -5% </div>
+                    <img src="https://levents.asia/wp-content/uploads/2022/08/z3745138995010_7d8e8374e7f70477b31759b8f953b87e-2048x2048.jpg" alt="CANVAS BACKPACK" width="250px">
+                    <div class="Gia">
+                        LEVENTS® | DORAEMON COLLAB HOODIE<br>
+                        <del>625,000 vnđ </del> <span style="color: red; text-decoration: underline;"> 593,750 vnđ </span>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="san-pham">
+                    <div class="ten" style="color: red;"> -15% </div>
+                    <img src="https://levents.asia/wp-content/uploads/2022/09/z3720582365767_e410731e8fcffe9006379ffeb35f75cf-1-2048x2048.jpg" alt="CANVAS BACKPACK" width="250px">
+                    <div class="Gia">
+                        LEVENTS® BASIC SWEATER <br>
+                        <del>490,000 vnđ </del> <span style="color: red; text-decoration: underline;"> 416,500 vnđ </span>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="san-pham">
+                    <div class="ten" style="color: red;"> -15% </div>
+                    <img src="https://levents.asia/wp-content/uploads/2022/08/z3664112571299_4989917f1fb89290f066e146826a2431_45988471a46042939bef89eb8c84af63-1024x1024.jpg" alt="CANVAS BACKPACK" width="250px">
+                    <div class="Gia">
+                        LEVENTS® BASIC SWEATER <br>
+                        <del>490,000 vnđ </del> <span style="color: red; text-decoration: underline;"> 416,500 vnđ </span>
+                    </div>
+                </div>
+            </div> <br>
+            <div class="column">
+                <div class="san-pham">
+                    <div class="ten" style="color: red;"> -5% </div>
+                    <img src="https://levents.asia/wp-content/uploads/2022/08/z3745137945811_f86fb99a2fd08a911c90789f121446e1-2048x2048.jpg" alt="CANVAS BACKPACK" width="250px">
+                    <div class="Gia">
+                        LEVENTS® | DORAEMON COLLAB ZIPPER <br>
+                        <del>645,000 vnđ </del> <span style="color: red; text-decoration: underline;"> 612,750 vnđ </span>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="san-pham">
+                    <div class="ten" style="color: red;"> -5% </div>
+                    <img src="https://levents.asia/wp-content/uploads/2022/08/z3745138125900_ccbc23528443fe4825d9bedce1054c62-1024x1024.jpg" alt="CANVAS BACKPACK" width="250px">
+                    <div class="Gia">
+                        LEVENTS® | DORAEMON COLLAB ZIPPER <br>
+                        <del>645,000 vnđ </del> <span style="color: red; text-decoration: underline;"> 612,750 vnđ </span>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="san-pham">
+                    <div class="ten" style="color: red;"> -15% </div>
+                    <img src="https://levents.asia/wp-content/uploads/2022/06/HOODIE-TRAVEL-B1-scaled.jpg" alt="CANVAS BACKPACK" width="200px">
+                    <div class="Gia">
+                        LEVENTS® TRAVEL HOODIE <br>
+                        <del>590,000 vnđ </del> <span style="color: red; text-decoration: underline;"> 501,500 vnđ </span>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="san-pham">
+                    <div class="ten" style="color: red;"> -15% </div>
+                    <img src="https://levents.asia/wp-content/uploads/2022/08/z3556448220766_c3502b505514f2e5197f34a6254d3878-1024x1024.jpg" alt="CANVAS BACKPACK" width="250px">
+                    <div class="Gia">
+                        LEVENTS® TRAVEL HOODIE <br>
+                        <del>590,000 vnđ </del> <span style="color: red; text-decoration: underline;"> 501,500 vnđ </span>
+                    </div>
+                </div>
+            </div> <br>
+            <div class="column">
+                <div class="san-pham">
+                    <div class="ten" style="color: red;"> -10% </div>
+                    <img src="https://levents.asia/wp-content/uploads/2022/08/z3603910329479_44732075e8f9cbcbf812c4d8b7d24044-1-2048x2048.jpg" alt="CANVAS BACKPACK" width="200px">
+                    <div class="Gia">
+                        LEVENTS® FUNNY CROCODILE SWEATER <br>
+                        <del>510,000 vnđ </del> <span style="color: red; text-decoration: underline;"> 459,000 vnđ </span>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="san-pham">
+                    <div class="ten" style="color: red;"> -10% </div>
+                    <img src="https://levents.asia/wp-content/uploads/2022/08/z3620825559609_91513a98e5d6c7067b087879f7c46776_5b4ae43f2d6a452caa283593897e9779-1024x1024.jpg" alt="CANVAS BACKPACK" width="200px">
+                    <div class="Gia">
+                        LEVENTS® FUNNY CROCODILE SWEATER <br>
+                        <del>510,000 vnđ </del> <span style="color: red; text-decoration: underline;"> 459,000 vnđ </span>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="san-pham">
+                    <div class="ten" style="color: red;"> -5% </div>
+                    <img src="https://levents.asia/wp-content/uploads/2022/06/CAPSULE-HD-B1-1229x1536.jpg" alt="CANVAS BACKPACK" width="200px">
+                    <div class="Gia">
+                        LEVENTS® CAPSULE HOODIE <br>
+                        <del>590,000 vnđ </del> <span style="color: red; text-decoration: underline;"> 501,500 vnđ </span>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="san-pham">
+                    <div class="ten" style="color: red;"> -5% </div>
+                    <img src="https://levents.asia/wp-content/uploads/2022/06/CASUAL-HD-BB1-1229x1536.jpg" alt="CANVAS BACKPACK" width="200px">
+                    <div class="Gia">
+                        LEVENTS® CAPSULE HOODIE <br>
+                        <del>590,000 vnđ </del> <span style="color: red; text-decoration: underline;"> 501,500 vnđ </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="mucthem">
+            <div class="them">
+                <a class="link-3" href="#"> Xem Thêm </a>
+            </div>
+        </div> 
+        <hr>
+        <footer>
+            <div class="row">
+               <div class="boxcenter1">
+                    <div class="boxs1">
+                        <h3> Mở Rộng </h3>
+                        <p>
+                            Tuyển Dụng <br> <br>
+                            Blog
+                        </p>
+                    </div>
+                    <div class="boxs2">
+                        <h3> Hỗ Trợ </h3>
+                            <p>
+                                Chính Sách Đổi Trả <br> <br> 
+                                <a href="Trangdangnhap.html"> Tài Khoản </a><br> <br>
+                                Chính Sách Vận Chuyển <br> <br>
+                                Thanh Toán Online <br> <br>
+                                Chính Sách bảo Mật <br> <br>
+                                Chính Sách bảo hành <br> <br>
+                                Chính Sách Khiếu nại
+                            </p>
+                    </div>
+                    <div class="boxs3">
+                        <h3> Cửa Hàng </h3>
+                            <p>
+                                <a href="Trang Lienhe.html"> 325 Hoàng Sa, Tân Định,quận 1, HCM </a>  <br> <br>
+                                <a href="Trang Lienhe.html"> The New Playground, 04 Phạm Ngũ Lão, quận 1, HCM </a> <br> <br>
+                                <a href="Trang Lienhe.html"> 842 Sư Vạn Hạnh, phường 12, quận 10, HCM </a><br> <br>
+                                <a href="Trang Lienhe.html"> 54 Mậu Thân, Xuân Khánh, quận Ninh Kiều, Cần Thơ </a><br>
+                            </p>
+                    </div>
+                    <div class="boxs4">
+                        <h3> Liên Hệ </h3>
+                        <p>
+                            <div class="nd"> <i class="fi fi-rr-phone-call"></i> Hotline <br><a href="">1900 633 028 </a></div>
+                            <div class="nd"><i class="fi fi-rr-envelope"></i>Email <br><a href="">Customercare@levents.asia </a></div>
+                            <div class="nd">Mon-Sun <br><a href="">09:30-21:30 </a></div>
+                            <div class="nd">Email Business <br><a href="">business@levents.asia </a></div>
+                        </p>
+                    </div>
+                    <div class="boxs5">
+                        <h3> Về Chúng Tôi </h3>
+                        <p>
+                            Levents® - Popular Streetwear Brand <br> <br>
+                            HỘ KINH DOANH Levents <br>
+                            GPKD được cấp bởi Ủy ban nhân dân Quận 1-TP Hồ Chí Minh <br>
+                            Mã số thuế: 8547618080 <br>
+                            Ngày cấp: 07/12/2020 <br>
+                        </p>
+                    </div>
+        </footer>
+        <hr>
+        <div class="muccuoi" style="background-color:darkgrey;">
+            Levents® - Popular Streetwear brand
+    </div>
+</body>
+</html>
